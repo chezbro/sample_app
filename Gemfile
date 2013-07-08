@@ -35,6 +35,7 @@ group :test, :development do
 	gem 'guard-rspec'
 	gem 'guard-spork'
 	gem 'spork'
+
 end
 
 group :test do
@@ -42,6 +43,7 @@ group :test do
 	gem 'factory_girl_rails'
 	gem 'cucumber-rails', :require => false
 	gem 'database_cleaner'
+
 end
 
 group :production do
