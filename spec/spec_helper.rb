@@ -35,4 +35,7 @@ RSpec.configure do |config|
   # the seed, which is printed after each run.
   #     --seed 1234
   config.order = "random"
+
+  # # Adding this to remove 'undefined method 'visit' for #rspec (SO Link: http://bit.ly/YLti5e & http://bit.ly/11Sl9ee)
+  # config.include Capybara::DSL, :type => :request
 end
